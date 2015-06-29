@@ -1,0 +1,25 @@
+{
+    "name": "phangoapp/phaexec",
+    "description": "A agnostic class for execute local commands and php scripts",
+    "require-dev": {
+        "phpunit/phpunit": "~4.8@dev"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Antonio de la Rosa",
+            "email": "webmaster@web-t-sys.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "symfony/process": "^3.0@dev",
+        "monolog/monolog": "^1.14@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhangoApp\\PhaExec\\": "src"
+        }
+    }
+}
