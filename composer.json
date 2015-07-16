@@ -15,7 +15,9 @@
     "require": {
         "guzzlehttp/guzzle": "~6.0",
         "symfony/process": "^3.0@dev",
-        "monolog/monolog": "^1.14@dev"
+        "monolog/monolog": "^1.14@dev",
+	"phpseclib/phpseclib": "^0.3.10"
+	
     },
     "autoload": {
         "psr-4": {
